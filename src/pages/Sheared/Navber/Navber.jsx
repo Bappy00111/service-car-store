@@ -25,7 +25,7 @@ const Navber = () => {
                     </ul>
                 </div>
                 <Link className="btn btn-ghost normal-case text-xl ">
-                    <img src={logo} alt="" />
+                    <img className="hidden lg:block" src={logo} alt="" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">

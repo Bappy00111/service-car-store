@@ -10,7 +10,7 @@ const Banner = () => {
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src={banner} className="w-full" />
                     <div className="absolute h-full flex items-center bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] ">
-                        <div className='text-white space-y-7  pl-[50px]'>
+                        <div className='text-white space-y-7 p-2 md:pl-[50px]'>
                             <h2 className='text-2xl md:text-6xl font-semibold'>Affordable <br /> Price For Car <br /> Servicing</h2>
                             <p className=''>There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
                             <div>
@@ -21,7 +21,7 @@ const Banner = () => {
 
                         </div>
                     </div>
-                    <div className="absolute flex gap-5 justify-end transform -translate-y-1/2  right-10 bottom-0">
+                    <div className="absolute flex gap-3 justify-end transform -translate-y-1/2  right-10 bottom-0">
                         <a href="#slide4" className="btn btn-circle">❮</a>
                         <a href="#slide2" className="btn btn-circle bg-[#FF3811]"><span className='text-zinc-50'>❯</span></a>
                     </div>
@@ -29,7 +29,7 @@ const Banner = () => {
                 <div id="slide2" className="carousel-item relative w-full">
                     <img src={banner4} className="w-full" />
                     <div className="absolute h-full flex items-center bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] ">
-                        <div className='text-white space-y-7 pl-[100px]'>
+                        <div className='text-white space-y-7 p-2 md:pl-[50px]'>
                             <h2 className='text-2xl md:text-6xl font-semibold'>Affordable <br /> Price For Car <br /> Servicing</h2>
                             <p className=''>There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
                             <div>
@@ -40,7 +40,7 @@ const Banner = () => {
 
                         </div>
                     </div>
-                    <div className="absolute flex gap-5 justify-end transform -translate-y-1/2  right-10 bottom-0">
+                    <div className="absolute flex gap-3 justify-end transform -translate-y-1/2  right-10 bottom-0">
                         <a href="#slide1" className="btn btn-circle">❮</a>
                         <a href="#slide3" className="btn btn-circle bg-[#FF3811]"><span className='text-zinc-50'>❯</span></a>
                     </div>
@@ -48,7 +48,7 @@ const Banner = () => {
                 <div id="slide3" className="carousel-item relative w-full">
                     <img src={banner3} className="w-full" />
                     <div className="absolute h-full flex items-center bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] ">
-                        <div className='text-white space-y-7 pl-[100px]'>
+                        <div className='text-white space-y-7 p-2 md:pl-[50px]'>
                             <h2 className='text-2xl md:text-6xl font-semibold'>Affordable <br /> Price For Car <br /> Servicing</h2>
                             <p className=''>There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
                             <div>
@@ -59,7 +59,7 @@ const Banner = () => {
 
                         </div>
                     </div>
-                    <div className="absolute flex gap-5 justify-end transform -translate-y-1/2  right-10 bottom-0">
+                    <div className="absolute flex gap-3 justify-end transform -translate-y-1/2  right-10 bottom-0">
                         <a href="#slide2" className="btn btn-circle">❮</a>
                         <a href="#slide4" className="btn btn-circle bg-[#FF3811]"><span className='text-zinc-50'>❯</span></a>
                     </div>
@@ -67,7 +67,7 @@ const Banner = () => {
                 <div id="slide4" className="carousel-item relative w-full">
                     <img src={banner2} className="w-full" />
                     <div className="absolute h-full flex items-center bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] ">
-                        <div className='text-white space-y-7 pl-[100px]'>
+                        <div className='text-white space-y-7 p-2 md:pl-[50px]'>
                             <h2 className='text-2xl md:text-6xl font-semibold'>Affordable <br /> Price For Car <br /> Servicing</h2>
                             <p className=''>There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
                             <div>
@@ -78,7 +78,7 @@ const Banner = () => {
 
                         </div>
                     </div>
-                    <div className="absolute flex gap-5 justify-end transform -translate-y-1/2  right-10 bottom-0">
+                    <div className="absolute flex gap-3 justify-end transform -translate-y-1/2  right-10 bottom-0">
                         <a href="#slide3" className="btn btn-circle">❮</a>
                         <a href="#slide1" className="btn btn-circle bg-[#FF3811]"><span className='text-zinc-50'>❯</span></a>
                     </div>
